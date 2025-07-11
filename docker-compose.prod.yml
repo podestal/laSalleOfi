@@ -1,0 +1,27 @@
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
+    container_name: nginx-web
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt
+      - /var/www/certbot:/var/www/certbot
+      - ./:/var/www
+    environment:
+      - ENVIRONMENT=production
+    entrypoint: >+
+      sh -c 'cp /etc/nginx/conf.d/nginx.prod.conf /etc/nginx/nginx.conf && nginx -g "daemon off;"'
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt
+      - /var/lib/letsencrypt:/var/lib/letsencrypt
+      - /var/www/certbot:/var/www/certbot
+    entrypoint: /bin/sh -c
+    command: "trap exit TERM; while :; do sleep 6h & wait $${!}; certbot renew --webroot -w /var/www/certbot; done" 
