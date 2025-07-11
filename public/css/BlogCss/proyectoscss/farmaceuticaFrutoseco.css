@@ -1,0 +1,80 @@
+/* Estilos generales */
+.item {
+	margin: 0;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
+  }
+  
+  .item.container {
+	padding-left: 0;
+	padding-right: 0;
+  }
+  
+  /* Estilos del artículo principal */
+  .main-article__title h1 {
+	text-align: center;
+	font-family: "Amaranth", sans-serif;
+  }
+  
+  .main-article img {
+	width: 40%!important;
+	height: 40%!important;
+	margin: auto!important;
+	display: flex;
+  }
+  
+  /* Estilos de la barra lateral */
+  .main-article__aside--list ul {
+	padding: 0;
+	list-style: none;
+	margin-bottom: 0;
+  }
+  
+  .main-article__aside--list ul li {
+	padding: 0.2em 0;
+  }
+  
+  .main-article__aside--list ul li i {
+	font-size: 0.7em;
+  }
+  
+  .main-article__aside--face {
+	padding-top: 1em;
+  }
+  
+  /* Estilos para pantallas más grandes */
+  @media screen and (min-width: 640px) {
+	
+	.item.s-100.l-70 {
+	  width: 70%;
+	}
+  
+
+	.item.s-100.l-30 {
+	  width: 30%;
+	}
+  
+
+	.container {
+	  display: flex;
+	}
+  }
+  
+
+  @media screen and (max-width: 640px) {
+
+	.container {
+	  flex-direction: column;
+	}
+  
+
+	.item.s-100.l-70,
+	.item.s-100.l-30 {
+	  width: 100%;
+	}
+  }
+  
+
+  main {
+	margin-bottom: 100px; 
+  }

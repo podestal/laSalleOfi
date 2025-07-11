@@ -1,0 +1,262 @@
+
+
+
+
+.item {
+    margin: 0;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em
+}
+
+.item {
+    width: 100%
+}
+
+.item.container {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.main-carrera {
+    color: white;
+}
+
+/* Contenedor principal del banner */
+.main-carrera__banner {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 500px; /* Ajusta el alto según el tamaño que tenía tu imagen */
+    overflow: hidden;
+}
+
+/* Video de fondo a canto a canto */
+.sede-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Contenido centrado sobre el video */
+.main-carrera__banner--content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 90;
+    width: 100%;
+    color: white;
+}
+
+/* Título de la carrera */
+.main-carrera__banner--content h1 {
+    font-size: 1.5em;
+    font-family: "Amaranth", sans-serif;
+    margin: 0;
+}
+
+@media screen and (min-width: 640px) {
+    .main-carrera__banner--content h1 {
+        font-size: 3em;
+    }
+}
+
+/* Subtítulo (resoluciones) */
+.main-carrera__banner--content p {
+    display: none;
+    font-size: 1.3em;
+    margin: 0;
+    font-family: "Amaranth", sans-serif;
+}
+
+@media screen and (min-width: 640px) {
+    .main-carrera__banner--content p {
+        display: block;
+    }
+}
+
+/* Logo de la carrera */
+.main-carrera__banner--content img {
+    width: 100px;
+}
+
+@media screen and (min-width: 640px) {
+    .main-carrera__banner--content img {
+        width: 200px;
+    }
+}
+
+/* Fondo de contenido inferior */
+.main-carrera__content {
+    background: #A8605F;
+    padding: 1em .3em !important;
+    margin: auto;
+}
+
+.main-carrera__banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(218, 12, 12, 0.5) 0%, transparent 20%, transparent 80%, rgba(224, 12, 12, 0.5) 100%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+.main-carrera__content--description {
+    border-bottom: 1px solid #ba8180
+}
+
+.main-carrera__content--description--img img {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 5px 15px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 5px 15px 0 rgba(0, 0, 0, 0.12)
+}
+
+@media screen and (min-width: 640px) {
+    .main-carrera__content--description {
+        border-bottom:0
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .main-carrera__content--description {
+        border-right:1px solid #ba8180
+    }
+}
+
+.main-carrera__content--competencias {
+    text-align: right
+}
+
+.main-carrera__content--competencias--img img {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 5px 15px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 5px 15px 0 rgba(0, 0, 0, 0.12)
+}
+
+.main-carrera__parrafo {
+    background: #263959;
+    margin: auto;
+    padding: 1em
+}
+
+.main-carrera__parrafo--img {
+    margin: auto
+}
+
+.main-carrera__parrafo--img img {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 5px 15px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 5px 15px 0 rgba(0, 0, 0, 0.12)
+}
+
+.main-carrera__turnos {
+    color: #A8605F;
+    text-align: center;
+    padding: 1em
+}
+
+.main-carrera__turnos--turno {
+    font-size: 1.1em
+}
+
+.main-carrera__turnos--turno ul {
+    list-style: none;
+    padding: 0
+}
+
+.main-carrera__turnos--duracion {
+    border-bottom: 1px solid #eace92;
+    font-size: 1.1em
+}
+
+.main-carrera__turnos--duracion h3 {
+    text-align: center
+}
+
+@media screen and (min-width: 640px) {
+    .main-carrera__turnos--duracion {
+        border-bottom:0
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .main-carrera__turnos--duracion {
+        border-right:1px solid #eace92
+    }
+}
+
+.main-carrera__turnos--clases {
+    font-size: 1.5em;
+    font-family: "Amaranth", sans-serif
+}
+
+.main-sillabus__title {
+    text-align: center
+}
+
+.main-sillabus__subtitle {
+    text-align: center
+}
+
+.main-sillabus__table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    padding: 1em
+}
+
+.main-sillabus__table table {
+    width: 100%;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(168, 96, 95, 0.16), 0 5px 15px 0 rgba(168, 96, 95, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(168, 96, 95, 0.16), 0 5px 15px 0 rgba(168, 96, 95, 0.12);
+    border-radius: 5px
+}
+
+.main-sillabus__table table th {
+    background: #A8605F;
+    color: white;
+    padding: .5em
+}
+
+.main-sillabus__table table tr:nth-child(odd) {
+    background: #f9f4f4;
+    color: #794242
+}
+
+.main-sillabus__table table tr:nth-child(2n) {
+    background: white;
+    color: #A8605F
+}
+
+.main-sillabus__table table td {
+    padding: .2em .5em
+}
+
+
+
+
+
+
+
+
+

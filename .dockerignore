@@ -1,0 +1,11 @@
+node_modules
+vendor
+storage/app
+storage/framework
+storage/logs
+.env
+git
+.git
+.gitignore
+.DS_Store
+npm-debug.log 

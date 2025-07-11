@@ -1,0 +1,230 @@
+.item {
+	margin: 0;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em
+}
+
+.item {
+	width: 100%
+}
+
+.item.container {
+	padding-left: 0;
+	padding-right: 0
+}
+
+
+
+
+.main-admission__banner {
+  position: relative;
+  padding: 0;
+}
+.main-admission__banner:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-clip-path: polygon(45% 0%, 0% 0%, 0% 100%, 55% 100%);
+  clip-path: polygon(45% 0%, 0% 0%, 0% 100%, 55% 100%);
+  border-right: 100px solid #c7b446;
+}
+.main-admission__banner--title {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 100;
+  font-family: "Amaranth", sans-serif;
+  font-size: 0.6em;
+  padding: 0 0.5em;
+  color: #1a82c9;
+}
+.main-admission__banner--title h1 {
+  margin: 0;
+}
+.main-admission__banner--title p {
+  text-align: right;
+  font-size: 2em;
+  margin: 0;
+  color: #c7b446;
+}
+.main-admission__banner--title > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: right;
+  font-size: 0.5em;
+  color: #23262d;
+  padding: 0;
+}
+.main-admission__banner--title i {
+  color: tomato;
+  font-size: 2em;
+}
+@media screen and (min-width: 640px) {
+  .main-admission__banner--title {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main-admission__banner--title {
+    font-size: 2.5em;
+  }
+}
+.main-admission__banner--inicio {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(38, 57, 89, 0.7);
+  width: 50%;
+  padding: 0;
+  color: white;
+  font-size: 1em;
+  text-align: right;
+}
+@media screen and (min-width: 1024px) {
+  .main-admission__banner--inicio {
+    padding: 0.5em 1em;
+    font-size: 2.5em;
+  }
+}
+.main-admission__banner--img {
+  position: absolute;
+  top: 0;
+  z-index: 200;
+  height: 100%;
+}
+.main-admission__banner--direccion {
+  padding: 0;
+}
+.main-admission__carreras {
+  background: #c7b446;
+}
+.main-admission__carreras--title h2 {
+  color: white;
+  text-align: center;
+  font-family: "Amaranth", sans-serif;
+}
+.main-admission__svg {
+  text-align: center;
+}
+.main-admission__svg img {
+  width: 70%;
+}
+.main-admission__svg p {
+  color: white;
+  font-size: 1.5em;
+}
+.main-admission__fecha {
+  background: #a8605f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+.main-admission__fecha h2 {
+  color: white;
+  text-align: center;
+}
+.main-admission__fecha--icon {
+  color: white;
+  text-align: center;
+  font-size: 15em;
+}
+.main-admission__fecha--numero {
+  position: absolute;
+  font-size: 8em;
+  color: #a8605f;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+.main-admission__inscripcion {
+  background: #263959;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+.main-admission__inscripcion h2 {
+  font-family: "Amaranth", sans-serif;
+  font-size: 3.5em;
+}
+.main-admission__contador {
+  background: white;
+  color: #263959;
+  text-align: center;
+  padding-bottom: 2.5em;
+}
+.main-admission__contador h3 {
+  font-family: "Amaranth", sans-serif;
+}
+.main-admission__contador--dia,
+.main-admission__contador--hora,
+.main-admission__contador--minuto,
+.main-admission__contador--segundo {
+  font-size: 8em;
+}
+.main-admission__contador--diaTitle,
+.main-admission__contador--horaTitle,
+.main-admission__contador--minutoTitle,
+.main-admission__contador--segundoTitle {
+  font-size: 0.3em;
+}
+.main-admission__requisitos {
+  color: #c7b446;
+  text-align: center;
+}
+.main-admission__requisitos--title h3 {
+  font-family: "Amaranth", sans-serif;
+  font-size: 3.5em;
+}
+.main-admission__requisitos--subtitle {
+  background: #c7b446;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.main-admission__requisitos--subtitle h4 {
+  font-size: 3em;
+}
+.main-admission__requisitos--list {
+  background: #263959;
+  color: white;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.main-admission__requisitos--list ul {
+  list-style: none;
+  font-size: 1.7em;
+}

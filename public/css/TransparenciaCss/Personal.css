@@ -1,0 +1,243 @@
+.perfil-puestos-section,
+.nuestros-docentes-section {
+    text-align: center;
+    /*background-color: #fbf4e7;*/ /* Remove background color here */
+    color: #000000;
+    padding: 40px 20px;
+}
+
+.perfil-puestos-section h2,
+.nuestros-docentes-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.perfil-puestos-section h2 span,
+.nuestros-docentes-section h2 span {
+    color: #ffc107;
+}
+
+/* Estilos para la sección de Perfil de Puestos */
+.perfil-puestos-card {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    color: #0041a3;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.perfil-puestos-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.4); 
+}
+
+.perfil-puestos-card img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.perfil-puestos-card a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+    margin-top: 10px; /* Keep the margin-top */
+}
+
+.perfil-puestos-card a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Estilos para la sección de Nuestros Docentes */
+.nuestros-docentes-section {
+    text-align: center;
+    /*background-color: #fbf4e7;*/ /* Remove background color here */
+    color: #070707;
+    padding: 40px 20px;
+}
+
+.nuestros-docentes-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.nuestros-docentes-section h2 span {
+    color: #ffc107;
+}
+
+.nuestros-docentes-section p {
+    margin: 10px 0 20px;
+}
+
+.docentes-table-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.table-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.table-controls select,
+.table-controls .search-box input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.table-controls select {
+    width: 150px;
+}
+
+.table-controls p {
+    margin: 0 10px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box label {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.search-box input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th,
+table td {
+    padding: 12px 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table td a {
+    color: #0056d6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.table-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.pagination a,
+.pagination span {
+    margin: 0 5px;
+    color: #0041a3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la sección de wrapper */
+.section-wrapper {
+    display: flex; 
+    flex-direction: column; 
+    background: linear-gradient(to bottom, #fbf4e7, #780707); 
+}
+
+.perfil-puestos-section {
+    width: 100%; 
+}
+
+.nuestros-docentes-section {
+    width: 100%; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .perfil-puestos-section h2,
+    .nuestros-docentes-section h2 {
+        font-size: 1.8em; 
+    }
+
+    .docentes-table-container {
+        max-width: 100%; 
+    }
+
+    .table-controls {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .table-controls select,
+    .table-controls .search-box input {
+        margin-bottom: 10px; 
+    }
+
+    .table-controls p {
+        margin-bottom: 10px; 
+    }
+
+    .search-box {
+        flex-direction: column; 
+    }
+
+    .search-box label {
+        margin-bottom: 5px; 
+    }
+
+    table {
+        font-size: 0.9em; 
+    }
+}
+
+@media (max-width: 480px) {
+    .perfil-puestos-section h2,
+    .nuestros-docentes-section h2 {
+        font-size: 1.6em; /* Further reduce font size */
+    }
+
+    .perfil-puestos-card {
+        width: 100%; /* Make card full width */
+    }
+
+    .docentes-table-container {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .table-controls select,
+    .table-controls .search-box input {
+        width: 100%; /* Make controls full width */
+    }
+}

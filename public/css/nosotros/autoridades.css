@@ -1,0 +1,258 @@
+
+.item {
+	margin: 0;
+	padding-left: 0.9375em;
+	padding-right: 0.9375em
+}
+.item {
+	width: 100%
+}
+
+
+
+
+.header__banner {
+	padding: 0;
+	position: relative
+}
+
+.header__banner:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: 
+  		radial-gradient(120rem 280% at 50% 50%, transparent 0, #780707 60%, #780707 80%, #5e0808 100%),
+  		radial-gradient(120rem 280% at 50% 50%, transparent 0, #ae1616 60%, #780707 80%, #5e0808 100%);
+}
+
+.header__title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	color: white;
+	z-index: 20;
+	font-family: "Amaranth", sans-serif;
+	font-size: 1em;
+	width: 100%;
+	text-align: center;
+	margin-top: 0
+}
+
+@media screen and (min-width:640px) {
+	.header__title {
+		font-size: 2em
+	}
+}
+
+.header__title p {
+	display: none
+}
+
+@media screen and (min-width:640px) {
+	.header__title p {
+		display: block
+	}
+}
+
+
+
+
+
+
+
+/* Margen */
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mb-10 {
+    margin-bottom: 2.5rem;
+}
+
+/* Display */
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+/* Tamaño */
+.w-full {
+    width: 100%;
+}
+
+/* Definiciones de columnas para la grilla */
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+/* Bordes */
+.rounded-lg {
+    border-radius: .5rem;
+}
+
+/* Fondo */
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+/* Padding */
+.p-1 {
+    padding: .25rem;
+}
+
+.p-2 {
+    padding: .5rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.px-2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+
+
+.text-small {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: .047em;
+}
+
+.display-medium-bold {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.link-medium {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: .75px;
+}
+
+/* Estilos de responsividad */
+@media (min-width: 640px) {
+    .sm\:grid-cols-1 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .sm\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .sm\:grid-cols-4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .sm\:px-3 {
+        padding-left: .75rem;
+        padding-right: .75rem;
+    }
+
+    .sm\:py-14 {
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .sm\:text-base {
+        font-size: 16px;
+    }
+
+    .sm\:text-lg {
+        font-size: 18px;
+    }
+
+    .sm\:text-3xl {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:mb-4 {
+        margin-bottom: 1rem;
+    }
+
+    .md\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .md\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .md\:pr-14 {
+        padding-right: 3.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:grid-cols-4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .lg\:flex {
+        display: flex;
+    }
+
+    .lg\:w-full {
+        width: 100%;
+    }
+
+    .lg\:pb-40 {
+        padding-bottom: 10rem;
+    }
+
+    .lg\:pt-0 {
+        padding-top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
