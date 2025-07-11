@@ -34,8 +34,9 @@ RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 # Install Node dependencies and build assets
 RUN npm install && npm run build
 
-# Set permissions
+# Set permissions for Laravel storage and cache directories
 RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache
+RUN chmod -R 775 /var/www/storage /var/www/bootstrap/cache
 
 EXPOSE 9000
 CMD ["php-fpm"] 
