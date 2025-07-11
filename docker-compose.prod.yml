@@ -1,8 +1,6 @@
 services:
   web:
-    build:
-      context: .
-      dockerfile: ./nginx/Dockerfile
+    image: nginx:alpine
     ports:
       - "80:80"
       - "443:443"
