@@ -9,7 +9,7 @@ class BlogController extends Controller
 {
      public function razones()
      {
-         return view('Blog.razones');
+         return view('Blog.Razones');
      }
      public function OpenDaysalle()
      {
