@@ -102,19 +102,25 @@
  
            <div class="item s-100 m-50 l-25">
  
-             <h2 class="main-footer__title h2">NOSOTROS</h2>
+             <h2 class="main-footer__title h2">Enlaces</h2>
  
              <ul class="main-footer__list">
  
-               <li>Quienes Somos</li>
+               <li><a href="{{route('nosotros')}}" class="linkMenu">Nosotros</a></li>
  
-               <li>Visión</li>
+               <li><a href="{{route('admision')}}" class="linkMenu">Admisión</a></li>
  
-               <li>Misión</li>
+               <li><a href="{{route('carreras')}}" class="linkMenu">Carreras Técnicas</a></li>
  
-               <li>Valores</li>
+               <li><a href="{{route('trabajeconNosotros')}}" class="linkMenu">Trabaje con Nosotros</a></li>
  
-               <li>Principios</li>
+               <li><a href="{{route('contactenos')}}" class="linkMenu">Contáctenos</a></li>
+
+               <li><a <a href="http://sanjuanbautista.q10.com" class="linkMenu">Alumnos</a></li>
+
+               <li><a href="https://sanjuanbautista.q10.com/SolicitudesInstitucionales/NuevaSolicitud" class="linkMenu">
+                Postula Aqui
+              </a></li>
  
              </ul>
  
@@ -203,13 +209,13 @@
   <div id="unique-modal" class="unique-modal">
     <div class="unique-modal-content">
       <span class="unique-close">&times;</span>
-      <h2 class="unique-title">APERTURAMOS MATRÍCULAS 2025-I</h2>
+      <h2 class="unique-title">APERTURAMOS MATRÍCULAS 2025-II</h2>
       <p class="unique-subtitle"><strong>Cronograma</strong></p>
       <ol class="unique-list">
-        <li>Inscripción hasta el 29 de marzo</li>
-        <li>Examen de admisión 30 de marzo</li>
-        <li>Inicio de labores académicas 7 de abril</li>
-        <li>Matrícula del 31 al 4 de abril</li>
+        <li>Inscripción desde el 1ro de Julio</li>
+        <li>Examen de admisión 24 de Agosto</li>
+        <li>Matrícula nuevos del 25 al 29 de Agosto</li>
+        <li>Inicio de labores académicas 1 de Septiembre</li>
       </ol>
       <table class="unique-table">
         <tr>
