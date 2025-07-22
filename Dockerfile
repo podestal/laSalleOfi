@@ -34,14 +34,8 @@ RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 # Install Node dependencies and build assets
 RUN npm install && npm run build
 
-# Set permissions for Laravel storage, cache, and database directories
-RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache /var/www/database
-RUN chmod -R 775 /var/www/storage /var/www/bootstrap/cache
-RUN chmod 664 /var/www/database/database.sqlite
-
-# Copy and set up entrypoint script
-COPY docker-entrypoint.sh /usr/local/bin/
-RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+# Create directories for volumes
+RUN mkdir -p /var/www/storage /var/www/bootstrap/cache /var/www/database
 
 EXPOSE 9000
 CMD ["php-fpm"] 
