@@ -37,5 +37,16 @@ RUN npm install && npm run build
 # Create directories for volumes
 RUN mkdir -p /var/www/storage /var/www/bootstrap/cache /var/www/database
 
+# Create Laravel storage subdirectories
+RUN mkdir -p /var/www/storage/app/public
+RUN mkdir -p /var/www/storage/framework/cache
+RUN mkdir -p /var/www/storage/framework/sessions
+RUN mkdir -p /var/www/storage/framework/views
+RUN mkdir -p /var/www/storage/logs
+
+# Set proper permissions for Laravel
+RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache /var/www/database
+RUN chmod -R 775 /var/www/storage /var/www/bootstrap/cache /var/www/database
+
 EXPOSE 9000
 CMD ["php-fpm"] 
