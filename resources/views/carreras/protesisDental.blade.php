@@ -91,14 +91,14 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Anatomía y Fisiología Bucodentaria</td></tr>
-					<tr><td>Materiales Dentales</td></tr>
-					<tr><td>Oclusión Dentaria</td></tr>
-					<tr><td>Retenedores Intracoronarios y Extracoronarios</td></tr>
-					<tr><td>Puentes Dentales</td></tr>
-					<tr><td>Bioseguridad en Laboratorio Dental</td></tr>
-					<tr><td>Optención de Modelos de Trabajo</td></tr>
-					<tr><td>Procesamiento de la Prótesis Total</td></tr>
+					<tr><td>ANATOMÍA Y FISIOLOGÍA BUCODENTARIA</td></tr>
+					<tr><td>MATERIALES DENTALES</td></tr>
+					<tr><td>OCLUSIÓN DENTARIA</td></tr>
+					<tr><td>RETENEDORES INTRACORONARIOS Y EXTRACORONARIOS</td></tr>
+					<tr><td>PUENTES DENTALES</td></tr>
+					<tr><td>BIOSEGURIDAD EN LABORATORIO DENTAL</td></tr>
+					<tr><td>OBTENCIÓN DE MODELOS DE TRABAJO</td></tr>
+					<tr><td>PROCESAMIENTO DE LA PRÓTESIS TOTAL</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -110,11 +110,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Producion y Comprencion de Textos</td></tr>
-					<tr><td>Matemática</td></tr>
-					<tr><td>Desarrollo Personal</td></tr>
-					<tr><td>Tecnología de la Información</td></tr>
-					<tr><td>Estadistica Basica</td></tr>
+					<tr><td>PRODUCCIÓN Y COMPRENSIÓN DE TEXTOS</td></tr>
+					<tr><td>MATEMÁTICA</td></tr>
+					<tr><td>DESARROLLO PERSONAL</td></tr>
+					<tr><td>TECNOLOGÍA DE LA INFORMACIÓN</td></tr>
+					<tr><td>ESTADÍSTICA BÁSICA</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -129,13 +129,13 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Diseño de Prótesis Parcial Removible</td></tr>
-					<tr><td>Prótesis Parcial Removible Base Acrílica</td></tr>
-					<tr><td>Procedimiento de Laboratorio Prótesis Parcial Removible de Base Acrílica</td></tr>
-					<tr><td>Reparaciones de Prótesis Parcial Removible</td></tr>
-					<tr><td>Administración de laboratorio Dental</td></tr>
-					<tr><td>Protesis Parcial Removible Base Metalica</td></tr>
-					<tr><td>Ingles</td></tr>
+					<tr><td>DISEÑO DE PRÓTESIS PARCIAL REMOVIBLE</td></tr>
+					<tr><td>PRÓTESIS PARCIAL REMOVIBLE BASE ACRÍLICA</td></tr>
+					<tr><td>PROCEDIMIENTO DE LABORATORIO PRÓTESIS PARCIAL REMOVIBLE DE BASE ACRÍLICA</td></tr>
+					<tr><td>REPARACIONES DE PRÓTESIS PARCIAL REMOVIBLE</td></tr>
+					<tr><td>ADMINISTRACIÓN DE LABORATORIO DENTAL</td></tr>
+					<tr><td>PRÓTESIS PARCIAL REMOVIBLE BASE METÁLICA</td></tr>
+					<tr><td>INGLÉS</td></tr>
 					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>
@@ -148,11 +148,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Sobre Dentadura Completa</td></tr>
-					<tr><td>Procedimiento de Laboratorio Prótesis Parcial Removible Base Metálica</td></tr>
-					<tr><td>Costos y Repuestos </td></tr>
-					<tr><td>Terminología Profesional en Inglés</td></tr>
-					<tr><td></td></tr>
+					<tr><td>SOBRE DENTADURA COMPLETA</td></tr>
+					<tr><td>PROCEDIMIENTO DE LABORATORIO PRÓTESIS PARCIAL REMOVIBLE BASE METÁLICA</td></tr>
+					<tr><td>COSTOS Y REPUESTOS</td></tr>
+					<tr><td>TERMINOLOGÍA PROFESIONAL EN INGLÉS</td></tr>
+					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -168,11 +168,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Materiales Dentales Para Cerámica</td></tr>
-					<tr><td>Confección de Aparatos de Ortodoncia Removible</td></tr>
-					<tr><td>Confección de Aparatos de Ortodoncia Fija y Semifija</td></tr>
-					<tr><td>Confección de Aparatos de Ortopedia Funcional</td></tr>
-					<tr><td>Reparación de AparaTos de Ortodoncia y Ortopedia</td></tr>
+					<tr><td>MATERIALES DENTALES PARA CERÁMICA</td></tr>
+					<tr><td>CONFECCIÓN DE APARATOS DE ORTODONCIA REMOVIBLE</td></tr>
+					<tr><td>CONFECCIÓN DE APARATOS DE ORTODONCIA FIJA Y SEMIFIJA</td></tr>
+					<tr><td>CONFECCIÓN DE APARATOS DE ORTOPEDIA FUNCIONAL</td></tr>
+					<tr><td>REPARACIÓN DE APARATOS DE ORTODONCIA Y ORTOPEDIA</td></tr>
 					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>
@@ -185,11 +185,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Procedimientos de Laboratorio en Ceramica Dental</td></tr>
-					<tr><td>Procedimiento de Laboratorio Prótesis Total Poliplano</td></tr>
-					<tr><td>Procedimiento de Laboratorio Prótesis Total Monoplano</td></tr>
-					<tr><td>Metodoloías Innovadoras</td></tr>
-					<tr><td>Etica y Liderazgo Profesional</td></tr>
+					<tr><td>PROCEDIMIENTOS DE LABORATORIO EN CERÁMICA DENTAL</td></tr>
+					<tr><td>PROCEDIMIENTO DE LABORATORIO PRÓTESIS TOTAL POLIPLANO</td></tr>
+					<tr><td>PROCEDIMIENTO DE LABORATORIO PRÓTESIS TOTAL MONOPLANO</td></tr>
+					<tr><td>METODOLOGÍAS INNOVADORAS</td></tr>
+					<tr><td>ÉTICA Y LIDERAZGO PROFESIONAL</td></tr>
 					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>

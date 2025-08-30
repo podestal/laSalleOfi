@@ -74,92 +74,129 @@
       @yield('content')
     </main>
 
-<footer class="main-footer">
-  <div class="container">
-    <div class="item container main-footer__container m-100 s-80">
+    <footer class="main-footer">
+ 
+       <div class="container">
+ 
+         <div class="item container main-footer__container m-100 s-80">
+ 
+           <div class="item s-100 m-50 l-25">
+ 
+             <h2 class="main-footer__title h2">CONTÁCTENOS</h2>
+ 
+             <ul class="main-footer__list">
+ 
+               <li><i class="fa fa-fw fa-envelope"></i> info@sjb-lasalle.edu.pe</li>
+ 
+               <li><i class="fab fa-fw fa-whatsapp"></i> +51 999 177 023</li>
+ 
+               <li class="main-footer__list--map"><a
+                   href="https://www.google.com/maps/place/Instituto+Superior+Tecnol%C3%B3gico+San+Juan+Bautista+La+Salle/@-15.4923772,-70.1264648,17z/data=!4m8!1m2!2m1!1sinsituto+san+juan+bautista+la+salle+juliaca!3m4!1s0x0:0x238db5a9286382ea!8m2!3d-15.4919737!4d-70.1252228"
+                   target="_blank"><span class="fa fa-4x fa-map-marker-alt"></span></a></li>
+ 
+               <li class="main-footer__list--dir">Jr. San Martin 896 Juliaca</li>
+ 
+             </ul>
+ 
+           </div>
+ 
+           <div class="item s-100 m-50 l-25">
+ 
+             <h2 class="main-footer__title h2">NOSOTROS</h2>
+ 
+             <ul class="main-footer__list">
+ 
+               <li>Quienes Somos</li>
+ 
+               <li>Visión</li>
+ 
+               <li>Misión</li>
+ 
+               <li>Valores</li>
+ 
+               <li>Principios</li>
+ 
+             </ul>
+ 
+           </div>
+ 
+           <div class="item s-100 m-50 l-25">
 
-      <!-- 1. CONTACTO -->
-      <div class="item s-100 m-50 l-25">
-        <h2 class="main-footer__title">CONTÁCTENOS</h2>
-        <ul class="main-footer__list">
-          <li><i class="fa fa-envelope"></i> <a href="mailto:info@sjb-lasalle.edu.pe">INFO@SJB-LASALLE.EDU.PE</a></li>
-          <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/51999177023">+51 999 177 023</a></li>
-          <li><i class="fa fa-map-marker-alt"></i> <a href="https://www.google.com/maps/place/Instituto+Superior+Tecnol%C3%B3gico+San+Juan+Bautista+La+Salle/@-15.4923772,-70.1264648,17z/data=!4m8!1m2!2m1!1sinsituto+san+juan+bautista+la+salle+juliaca!3m4!1s0x0:0x238db5a9286382ea!8m2!3d-15.4919737!4d-70.1252228" target="_blank">JR. SAN MARTÍN 896, JULIACA</a></li>
-        </ul>
-      </div>
+            <h2 class="main-footer__title h2">PROYECTOS</h2>
+        
+            <ul class="main-footer__list">
+        
+                <li><i class="fa fa-check"></i> <a href="{{ route('propiedadeslaqato') }}">Terapeuticas gusano laqato</a></li>
+                <li><i class="fa fa-check"></i> <a href="{{ route('vinoAjenjo') }}">Vino medicinal de ajenjo</a></li>
+                <li><i class="fa fa-check"></i> <a href="{{ route('jaleadeSabila') }}">JALEA A BASE DE SABILA LINAZA</a></li>
+                <li><i class="fa fa-check"></i> <a href="{{ route('farmaceuticaFrutoseco') }}">FORMA FARMACEUTICA FRUTO SECO</a></li>
+                <li><i class="fa fa-check"></i> <a href="{{ route('fabricaciondeoximielito') }}">ELABORACIÓN DE OXIMIELITO</a></li>
+        
+            </ul>
+        
+          </div>
+ 
+           <div class="item s-100 m-50 l-25">
+ 
+             <h2 class="main-footer__title h2">SAN JUAN BAUTISTA</h2>
+ 
+             <div class="footer-content">
+ 
+               <ul class="main-footer__list">
+ 
+                 <li>Juliaca - Puno - Perú</li>
+ 
+               </ul>
+ 
+               <div class="socials socials-footer">
+ 
+                 <a href="https://www.facebook.com/institutoSJB/" target="_blank" class="icon icon-facebook"><span class="fab fa-facebook-f"></span></a>
 
-      <!-- 2. NOSOTROS (SIN MODIFICAR) -->
-      <div class="item s-100 m-50 l-25">
-        <h2 class="main-footer__title h2">NOSOTROS</h2>
-        <ul class="main-footer__list">
-          <li>QUIENES SOMOS</li>
-          <li>VISIÓN</li>
-          <li>MISIÓN</li>
-          <li>VALORES</li>
-          <li>PRINCIPIOS</li>
-        </ul>
-      </div>
+                 <a href="https://wa.me/51999177023?text=Hola%2C%20quiero%20más%20información%20sobre%20las%20carreras." class="icon"><span class="fab fa-whatsapp"></span></a>
+ 
+                 <!--<a href="     " class="icon icon-twitter" target="_blank"><span class="fab fa-twitter"></span></a>
+ 
+                 <a href="     " class="icon icon-youtube"><span class="fab fa-youtube"></span></a>
+ 
+                 <a href="     " class="icon icon-google"><span class="fab fa-google-plus-g"></span></a>-->
 
-      <!-- 3. PROYECTOS -->
-      <div class="item s-100 m-50 l-25">
-        <h2 class="main-footer__title">PROYECTOS</h2>
-        <ul class="main-footer__list">
-          <li><a href="{{ route('propiedadeslaqato') }}">TERAPÉUTICAS GUSANO LAQATO</a></li>
-          <li><a href="{{ route('vinoAjenjo') }}">VINO MEDICINAL AJENJO</a></li>
-          <li><a href="{{ route('jaleadeSabila') }}">JALEA SÁBILA-LINAZA</a></li>
-          <li><a href="{{ route('farmaceuticaFrutoseco') }}">FORMA FARMACÉUTICA FRUTO SECO</a></li>
-          <li><a href="{{ route('fabricaciondeoximielito') }}">ELABORACIÓN OXIMIELITO</a></li>
-        </ul>
-      </div>
+                    </div><br>
+               </div>
+ 
+               <div class="">
+ 
+                 <!--<a style="font-size:.7em;color:white" href="https://www.freepik.es/fotos-vectores-gratis/ninos">Vector
+                   de niños creado por freepik - www.freepik.es</a><br>
+ 
+                 <a style="font-size:.7em;color:white" href="https://www.freepik.es/fotos-vectores-gratis/mano">Vector de
+                   mano creado por freepik - www.freepik.es</a><br>
+ 
+                 <a style="font-size:.7em;color:white" href="https://www.freepik.es/fotos-vectores-gratis/fondo">Vector
+                   de fondo creado por macrovector - www.freepik.es</a>-->
+ 
+               </div>
+ 
+             </div>
+ 
+           </div>
+ 
+         </div>
 
-      <!-- 4. SAN JUAN BAUTISTA -->
-      <div class="item s-100 m-50 l-25">
-        <h2 class="main-footer__title">SAN JUAN BAUTISTA</h2>
-        <p>JULIACA – PUNO – PERÚ</p>
-
-        <!-- Estilos vistosos para los logos -->
-        <style>
-          .social-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            color: #fff;
-            font-size: 22px;
-            margin: 0 6px;
-            transition: transform .3s ease, box-shadow .3s ease;
-            box-shadow: 0 2px 8px rgba(0,0,0,.2);
-          }
-          .social-btn:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 4px 12px rgba(0,0,0,.35);
-          }
-          .social-btn.fb  { background: linear-gradient(135deg,#1877F2,#42A5F5); }
-          .social-btn.wsp { background: linear-gradient(135deg,#25D366,#00E676); }
-        </style>
-
-        <!-- Logos vistosos -->
-        <div class="socials-footer">
-          <a class="social-btn fb" href="https://www.facebook.com/institutoSJB/" target="_blank" aria-label="Facebook">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-
-          <a class="social-btn wsp" href="https://wa.me/51999177023?text=HOLA%2C%20QUIERO%20MÁS%20INFORMACIÓN%20SOBRE%20LAS%20CARRERAS." target="_blank" aria-label="WhatsApp">
-            <i class="fab fa-whatsapp"></i>
-          </a>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Copyright -->
-    <div class="item m-100 abcenter">
-      <p>&copy; {{ date('Y') }} SAN JUAN BAUTISTA. ALL RIGHTS RESERVED. DESIGNED BY <strong>FJH DEVS</strong>.</p>
-    </div>
-  </div>
-</footer>
+          <div class="item m-100 abcenter">
+  
+            <p>
+              &copy; 2025 San Juan Bautista. All rights reserved. Designed by <strong>FJH Devs</strong>.
+            </p>
+  
+          </div>
+ 
+         <div class="item m-100 abcenter">
+ 
+         </div>
+ 
+       </div>
+ 
+    </footer>
 
    </div>
  
@@ -359,42 +396,23 @@
 </style>
 
 <script>
-  const MODAL_ID      = 'unique-modal';
-  const CLOSE_BTN     = '.unique-close';
-  const INTERVALO_MIN = 60;                    // <-- minutos entre cada aparición
-  const STORAGE_KEY   = 'modalClosedTime';
+  // Muestra el modal automáticamente al cargar la página
+window.addEventListener("load", function () {
+    document.getElementById("unique-modal").style.display = "block";
+});
 
-  // helpers
-  const $   = id => document.getElementById(id);
-  const now = () => Date.now();
+// Cierra el modal al hacer clic en la 'X'
+document.querySelector(".unique-close").addEventListener("click", function () {
+    document.getElementById("unique-modal").style.display = "none";
+});
 
-  function mostrarModal() {
-    $(MODAL_ID).style.display = 'block';
-  }
-  function ocultarModal() {
-    $(MODAL_ID).style.display = 'none';
-    localStorage.setItem(STORAGE_KEY, now());
-  }
-  function tiempoRestante() {
-    const closed = localStorage.getItem(STORAGE_KEY);
-    return closed ? (INTERVALO_MIN * 60 * 1000) - (now() - closed) : 0;
-  }
-
-  // Lógica de inicio
-  const falta = tiempoRestante();
-  if (falta <= 0) {               // ya pasó el tiempo o es la primera vez
-    mostrarModal();
-  } else {                        // todavía no toca, esperamos el tiempo restante
-    setTimeout(mostrarModal, falta);
-  }
-
-  // Cerrar con la “X”
-  document.querySelector(CLOSE_BTN).addEventListener('click', ocultarModal);
-
-  // Cerrar clic fuera
-  window.addEventListener('click', e => {
-    if (e.target === $(MODAL_ID)) ocultarModal();
-  });
+// Cierra el modal si el usuario hace clic fuera de él
+window.addEventListener("click", function (event) {
+    let modal = document.getElementById("unique-modal");
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+});
 </script>
 
 

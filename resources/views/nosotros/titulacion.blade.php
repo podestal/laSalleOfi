@@ -25,19 +25,19 @@
         <a href="{{ asset('pdfs/certificado.pdf') }}" download="Certificado_de_Educacion_Superior.pdf">
             <img src="{{ asset('imgs/certificado.png') }}" alt="Certificado de Educación Superior">
         </a>
-        <p>Certificado de Educación Superior</p>
+        <p>CERTIFICADO DE EDUCACIÓN SUPERIOR</p>
       </div>
       <div class="icon-box">
         <a href="{{ asset('pdfs/constancia.pdf') }}" download="Constancia_de_Egresado.pdf">
             <img src="{{ asset('imgs/prestamo.png') }}" alt="Constancia de Egresado">
         </a>
-        <p>Grados Academicos</p>
+        <p>GRADOS ACADÉMICOS</p>
       </div>
       <div class="icon-box">
         <a href="{{ asset('pdfs/diploma.pdf') }}" download="Constancia_de_Bachiller.pdf">
             <img src="{{ asset('imgs/diploma-de-graduacion.png') }}" alt="Diploma de Graduación">
         </a>
-        <p>Titutlo Emitido por el Instituto</p>
+        <p>TÍTULO EMITIDO POR EL INSTITUTO</p>
       </div>
     </div>
   </section>
@@ -69,7 +69,7 @@
               Descargar
           </span>
       </a>
-      <p style="margin-top: 10px;">Modalidad de Titulación</p>
+      <p style="margin-top: 10px;">MODALIDAD DE TITULACIÓN</p>
   </div>
   
   

@@ -96,14 +96,13 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Anatomía Y fisiología Humana</td></tr>
-                    <tr><td>Primeros Auxilios e Inyectables</td></tr>
-                    <tr><td>Fundamentos Básicos en Salud</td></tr>
-                    <tr><td>Introduccion a la Fisioterapia</td></tr>
-                    <tr><td>Matemática</td></tr>
-                    <tr><td>Desarrollo Personal</td></tr>
-                    <tr><td>Tecnología de la Información</td></tr>
-                    
+                    <tr><td>ANATOMÍA Y FISIOLOGÍA HUMANA</td></tr>
+                    <tr><td>PRIMEROS AUXILIOS E INYECTABLES</td></tr>
+                    <tr><td>FUNDAMENTOS BÁSICOS EN SALUD</td></tr>
+                    <tr><td>INTRODUCCIÓN A LA FISIOTERAPIA</td></tr>
+                    <tr><td>MATEMÁTICA</td></tr>
+                    <tr><td>DESARROLLO PERSONAL</td></tr>
+                    <tr><td>TECNOLOGÍA DE LA INFORMACIÓN</td></tr>
                 </tbody>
             </table>
         </div>
@@ -115,13 +114,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Epidemiologia y Enfermedades Transmisibles</td></tr>
-                    <tr><td>Anatomía del Aparato Locomotor</td></tr>
-                    <tr><td>Actividades en su Salud Pública</td></tr>
-                    <tr><td>Actividades en su Salud Familia y Comunidad</td></tr>
-                    <tr><td>Produccion y Comprención de Textos</td></tr>
-                    <tr><td>Estadística Basica</td></tr>
-                    
+                    <tr><td>EPIDEMIOLOGÍA Y ENFERMEDADES TRANSMISIBLES</td></tr>
+                    <tr><td>ANATOMÍA DEL APARATO LOCOMOTOR</td></tr>
+                    <tr><td>ACTIVIDADES EN SALUD PÚBLICA</td></tr>
+                    <tr><td>ACTIVIDADES EN SALUD FAMILIAR Y COMUNIDAD</td></tr>
+                    <tr><td>PRODUCCIÓN Y COMPRENSIÓN DE TEXTOS</td></tr>
+                    <tr><td>ESTADÍSTICA BÁSICA</td></tr>
                 </tbody>
             </table>
         </div>
@@ -136,12 +134,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Patología General</td></tr>
-                    <tr><td>Preparacion y Asistencia al Paciente</td></tr>
-                    <tr><td>Agentes Físicos</td></tr>
-                    <tr><td>Principios de Masoterapia</td></tr>
-                    <tr><td>Farmacología y Admintracion de Medicamentos</td></tr>
-                    <tr><td>Inglés</td></tr> 
+                    <tr><td>PATOLOGÍA GENERAL</td></tr>
+                    <tr><td>PREPARACIÓN Y ASISTENCIA AL PACIENTE</td></tr>
+                    <tr><td>AGENTES FÍSICOS</td></tr>
+                    <tr><td>PRINCIPIOS DE MASOTERAPIA</td></tr>
+                    <tr><td>FARMACOLOGÍA Y ADMINISTRACIÓN DE MEDICAMENTOS</td></tr>
+                    <tr><td>INGLÉS</td></tr>
                     <tr><td>&nbsp;</td></tr>
                 </tbody>
             </table>
@@ -154,13 +152,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Agentes de Tracción</td></tr>
-                    <tr><td>Terapia Física</td></tr>
-                    <tr><td>Nutrción y Dietoterapia</td></tr>
-                    <tr><td>Fisioterapia en Salud Ocupacional</td></tr>
-                    <tr><td>Terminología Profesional en Inglés</td></tr>
-                    <tr><td></td></tr>
-                    
+                    <tr><td>AGENTES DE TRACCIÓN</td></tr>
+                    <tr><td>TERAPIA FÍSICA</td></tr>
+                    <tr><td>NUTRICIÓN Y DIETOTERAPIA</td></tr>
+                    <tr><td>FISIOTERAPIA EN SALUD OCUPACIONAL</td></tr>
+                    <tr><td>TERMINOLOGÍA PROFESIONAL EN INGLÉS</td></tr>
+                    <tr><td>&nbsp;</td></tr>
                 </tbody>
             </table>
         </div>
@@ -175,11 +172,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Asistencia en Reumatología, Traumatología y Ortopedia</td></tr>
-                    <tr><td>Asistencia Fisioterapéutica en Ginecología y Obstetricia</td></tr>
-                    <tr><td>Fisioterapia Deportiva</td></tr>
-                    <tr><td>Estadística en Salud</td></tr>
-                    <tr><td>Metodologñias Innovadoras</td></tr>
+                    <tr><td>ASISTENCIA EN REUMATOLOGÍA, TRAUMATOLOGÍA Y ORTOPEDIA</td></tr>
+                    <tr><td>ASISTENCIA FISIOTERAPÉUTICA EN GINECOLOGÍA Y OBSTETRICIA</td></tr>
+                    <tr><td>FISIOTERAPIA DEPORTIVA</td></tr>
+                    <tr><td>ESTADÍSTICA EN SALUD</td></tr>
+                    <tr><td>METODOLOGÍAS INNOVADORAS</td></tr>
                     <tr><td>&nbsp;</td></tr>
                 </tbody>
             </table>
@@ -192,10 +189,10 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Asistencia Fisioterapéutica en Alteraciones Neurológicas</td></tr>
-                    <tr><td>Rehabilitacion en cirugía de pacientes Quemados</td></tr>
-                    <tr><td>Fisioterapia y Rehabilitacion en Alteraciones de Lenguaje</td></tr>
-                    <tr><td>Etica y Liderazgo Profesional</td></tr>
+                    <tr><td>ASISTENCIA FISIOTERAPÉUTICA EN ALTERACIONES NEUROLÓGICAS</td></tr>
+                    <tr><td>REHABILITACIÓN EN CIRUGÍA DE PACIENTES QUEMADOS</td></tr>
+                    <tr><td>FISIOTERAPIA Y REHABILITACIÓN EN ALTERACIONES DE LENGUAJE</td></tr>
+                    <tr><td>ÉTICA Y LIDERAZGO PROFESIONAL</td></tr>
                     <tr><td>&nbsp;</td></tr>
                 </tbody>
             </table>

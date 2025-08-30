@@ -91,13 +91,13 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Anatomía y Fisiología</td></tr>
-					<tr><td>Prevención en Salud</td></tr>
-					<tr><td>Primeros Auxilios Inyectables</td></tr>
-					<tr><td>Química</td></tr>
-					<tr><td>Matemática</td></tr>
-					<tr><td>Desarrollo Personal</td></tr>
-					<tr><td>Tecnología de la Información</td></tr>
+					<tr><td>ANATOMÍA Y FISIOLOGÍA</td></tr>
+					<tr><td>PREVENCIÓN EN SALUD</td></tr>
+					<tr><td>PRIMEROS AUXILIOS INYECTABLES</td></tr>
+					<tr><td>QUÍMICA</td></tr>
+					<tr><td>MATEMÁTICA</td></tr>
+					<tr><td>DESARROLLO PERSONAL</td></tr>
+					<tr><td>TECNOLOGÍA DE LA INFORMACIÓN</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -109,13 +109,12 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Legislación Farmaceútica</td></tr>
-					<tr><td>Faces de la Administración Farmacéutica</td></tr>
-					<tr><td>Atención al Cliente</td></tr>
-					<tr><td>Micribiología</td></tr>
-					<tr><td>Produccion y Comprención de Textos</td></tr>
-					<tr><td>Estadística Basica</td></tr>
-						
+					<tr><td>LEGISLACIÓN FARMACÉUTICA</td></tr>
+					<tr><td>FASES DE LA ADMINISTRACIÓN FARMACÉUTICA</td></tr>
+					<tr><td>ATENCIÓN AL CLIENTE</td></tr>
+					<tr><td>MICROBIOLOGÍA</td></tr>
+					<tr><td>PRODUCCIÓN Y COMPRENSIÓN DE TEXTOS</td></tr>
+					<tr><td>ESTADÍSTICA BÁSICA</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -130,12 +129,12 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Buenas Practicas en Almacenamiento</td></tr>
-					<tr><td>Venta y Expendio de Medicamentos y Productos Afines</td></tr>
-					<tr><td>Aplicaciones de Bases Farmacológicas</td></tr>
-					<tr><td>Bioquímica</td></tr>
-					<tr><td>Política Nacional de Salud y Medicamentos</td></tr>
-					<tr><td>Inglés</td></tr>
+					<tr><td>BUENAS PRÁCTICAS EN ALMACENAMIENTO</td></tr>
+					<tr><td>VENTA Y EXPENDIO DE MEDICAMENTOS Y PRODUCTOS AFINES</td></tr>
+					<tr><td>APLICACIONES DE BASES FARMACOLÓGICAS</td></tr>
+					<tr><td>BIOQUÍMICA</td></tr>
+					<tr><td>POLÍTICA NACIONAL DE SALUD Y MEDICAMENTOS</td></tr>
+					<tr><td>INGLÉS</td></tr>
 					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>
@@ -148,12 +147,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Administración Farmacéutica</td></tr>
-					<tr><td>Enfermedades y su Tratamiento Farmacológico</td></tr>
-					<tr><td>Técnicas de Ventas</td></tr>
-					<tr><td>Petitorio Nacional de Medicamentos</td></tr>
-					<tr><td>Terminología Profesional en Inglés</td></tr>
-			
+					<tr><td>ADMINISTRACIÓN FARMACÉUTICA</td></tr>
+					<tr><td>ENFERMEDADES Y SU TRATAMIENTO FARMACOLÓGICO</td></tr>
+					<tr><td>TÉCNICAS DE VENTAS</td></tr>
+					<tr><td>PETITORIO NACIONAL DE MEDICAMENTOS</td></tr>
+					<tr><td>TERMINOLOGÍA PROFESIONAL EN INGLÉS</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -168,13 +166,12 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Transformación de Materias Primas</td></tr>
-					<tr><td>Preparados Galénicos</td></tr>
-					<tr><td>Técnicas de Control de Calidad</td></tr>
-					<tr><td>Productos Naturales, Cosméticos y Afines</td></tr>
-					<tr><td>Venta y Dispensación de Productos Naturales</td></tr>
-					<tr><td>Metodologías Innovadoras</td></tr>
-					
+					<tr><td>TRANSFORMACIÓN DE MATERIAS PRIMAS</td></tr>
+					<tr><td>PREPARADOS GALÉNICOS</td></tr>
+					<tr><td>TÉCNICAS DE CONTROL DE CALIDAD</td></tr>
+					<tr><td>PRODUCTOS NATURALES, COSMÉTICOS Y AFINES</td></tr>
+					<tr><td>VENTA Y DISPENSACIÓN DE PRODUCTOS NATURALES</td></tr>
+					<tr><td>METODOLOGÍAS INNOVADORAS</td></tr>
 					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>
@@ -188,9 +185,9 @@
 				</thead>
 				<tbody>
 					<tr><td>DOCUMENTACIÓN EN UNA OFICINA FARMACÉUTICA</td></tr>
-					<tr><td>Manejo, Control e Inventario de Equipos, Materiales e Insumos Farmacotécnicos</td></tr>
+					<tr><td>MANEJO, CONTROL E INVENTARIO DE EQUIPOS, MATERIALES E INSUMOS FARMACOTÉCNICOS</td></tr>
 					<tr><td>ENFERMEDADES Y SU TRATAMIENTO FARMACOLÓGICO II</td></tr>
-					<tr><td>Ética y Liderazgo Profesional</td></tr>
+					<tr><td>ÉTICA Y LIDERAZGO PROFESIONAL</td></tr>
 					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>

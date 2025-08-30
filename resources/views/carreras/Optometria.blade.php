@@ -75,7 +75,7 @@
 			<div class="item s-100 m-50 main-carrera__turnos--turno">
 				<h2 class="h2">Turnos </h2>
 				<div>
-					<ul><li>Turno Noche: 05:30pm a 08:45pm</li></ul></div>
+					<ul><li>Turno Tarde: 01:00pm a 06:00pm</li></ul></div>
 			</div>
 			<div class="item s-100 main-carrera__turnos--clases">
 				<p>Las clases las realizarás en nuestras instalaciones Jr. San Martin 868 Juliaca</p>
@@ -98,13 +98,13 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Óptica Geometría Aplicada	</td></tr>
-					<tr><td>Óptica Física Aplicada</td></tr>
-					<tr><td>Bioquímica	</td></tr>
-					<tr><td>Anatomía y Fisiología Humana</td></tr>
-					<tr><td>Matemática</td></tr>
-					<tr><td>Desarrollo Personal</td></tr>
-					<tr><td>Tecnología de la Información</td></tr>
+					<tr><td>ÓPTICA GEOMETRÍA APLICADA</td></tr>
+					<tr><td>ÓPTICA FÍSICA APLICADA</td></tr>
+					<tr><td>BIOQUÍMICA</td></tr>
+					<tr><td>ANATOMÍA Y FISIOLOGÍA HUMANA</td></tr>
+					<tr><td>MATEMÁTICA</td></tr>
+					<tr><td>DESARROLLO PERSONAL</td></tr>
+					<tr><td>TECNOLOGÍA DE LA INFORMACIÓN</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -116,15 +116,14 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Anatomía y Fisiología Ocular</td></tr>
-					<tr><td>Biología Ocular	</td></tr>
-					<tr><td>Patología General	</td></tr>
-					<tr><td>Óptica oftálmica</td></tr>
-					<tr><td>Óptica Fisiológica</td></tr>
-					<tr><td>Fundamentos de Investigación</td></tr>
-					<tr><td>Produccion y Comprecion de Textos</td></tr>
-					<tr><td>Estadística Básica</td></tr>
-					
+					<tr><td>ANATOMÍA Y FISIOLOGÍA OCULAR</td></tr>
+					<tr><td>BIOLOGÍA OCULAR</td></tr>
+					<tr><td>PATOLOGÍA GENERAL</td></tr>
+					<tr><td>ÓPTICA OFTÁLMICA</td></tr>
+					<tr><td>ÓPTICA FISIOLÓGICA</td></tr>
+					<tr><td>FUNDAMENTOS DE INVESTIGACIÓN</td></tr>
+					<tr><td>PRODUCCIÓN Y COMPRENSIÓN DE TEXTOS</td></tr>
+					<tr><td>ESTADÍSTICA BÁSICA</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -139,11 +138,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Patología Visual</td></tr>
-					<tr><td>Ética Profesional</td></tr>
-					<tr><td>Análisis Optométrico</td></tr>
-					<tr><td>Optometría clínica I	</td></tr>
-					<tr><td>Inglés Básico</td></tr>
+					<tr><td>PATOLOGÍA VISUAL</td></tr>
+					<tr><td>ÉTICA PROFESIONAL</td></tr>
+					<tr><td>ANÁLISIS OPTOMÉTRICO</td></tr>
+					<tr><td>OPTOMETRÍA CLÍNICA I</td></tr>
+					<tr><td>INGLÉS BÁSICO</td></tr>
 					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>
@@ -156,13 +155,12 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Optometría Pediátrica</td></tr>
-					<tr><td>Optometría clínica II</td></tr>
-					<tr><td>Optometría General	</td></tr>
-					<tr><td>Técnicas y Procedimientos Optométricos</td></tr>
-					<tr><td>Termonilogía Profesional en Inglés</td></tr>
-					<tr><td></td></tr>
-			
+					<tr><td>OPTOMETRÍA PEDIÁTRICA</td></tr>
+					<tr><td>OPTOMETRÍA CLÍNICA II</td></tr>
+					<tr><td>OPTOMETRÍA GENERAL</td></tr>
+					<tr><td>TÉCNICAS Y PROCEDIMIENTOS OPTOMÉTRICOS</td></tr>
+					<tr><td>TERMINOLOGÍA PROFESIONAL EN INGLÉS</td></tr>
+					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -177,12 +175,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Higiene y Seguridad Visual	</td></tr>
-					<tr><td>Visión Sub-Normal	</td></tr>
-					<tr><td>Contactología General</td></tr>
-					<tr><td>Lentes de contactos Blandos</td></tr>
-					<tr><td>Metodologías Innovadoras</td></tr>
-
+					<tr><td>HIGIENE Y SEGURIDAD VISUAL</td></tr>
+					<tr><td>VISIÓN SUB-NORMAL</td></tr>
+					<tr><td>CONTACTOLOGÍA GENERAL</td></tr>
+					<tr><td>LENTES DE CONTACTO BLANDOS</td></tr>
+					<tr><td>METODOLOGÍAS INNOVADORAS</td></tr>
 					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>
@@ -195,12 +192,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Lentes de contactos Multifuncionales y Afaquicos</td></tr>
-					<tr><td>Rehabilitación Visual y Prótasis Ocular	</td></tr>
-					<tr><td>Urgencias y Emergencias en Optometría</td></tr>
-					<tr><td>Etica y Liderazgo Profesional</td></tr>
-					<tr><td></td></tr>
-
+					<tr><td>LENTES DE CONTACTO MULTIFUNCIONALES Y AFAQUICOS</td></tr>
+					<tr><td>REHABILITACIÓN VISUAL Y PRÓTESIS OCULAR</td></tr>
+					<tr><td>URGENCIAS Y EMERGENCIAS EN OPTOMETRÍA</td></tr>
+					<tr><td>ÉTICA Y LIDERAZGO PROFESIONAL</td></tr>
+					<tr><td>&nbsp;</td></tr>
 					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>

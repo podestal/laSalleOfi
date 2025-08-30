@@ -74,7 +74,8 @@
 			<div class="item s-100 m-50 main-carrera__turnos--turno">
 				<h2 class="h2">Turnos </h2>
 				<div>
-					<!--<ul><li>Turno Mañana: 08:00 a 11:40</li><li>Turno Tarde: 01:30pm a 05:10pm</li><li>Turno Noche: 05:30pm a 08:45pm</li></ul>-->			</div>
+					<ul><li>Turno Mañana: 07:00am a 12:00am</li><li>Turno Tarde: 01:00pm a 06:00pm</li></ul>
+				</div>
 			</div>
 			<div class="item s-100 main-carrera__turnos--clases">
 				<p>Las clases las realizarás en nuestras instalaciones Jr. San Martin 868 Juliaca</p>
@@ -97,15 +98,13 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Anatomía Fisiológica</td></tr>
-					<tr><td>Terminología y Documentación en Salud</td></tr>
-					<tr><td>Fundamentos de Enfermería</td></tr>
-					<tr><td>Primeros Auxilios</td></tr>
-					<tr><td>Matemática</td></tr>
-					<tr><td>Desarrollo Personal</td></tr>
-					<tr><td>Tecnología de la Informacion</td></tr>
-
-					
+					<tr><td>ANATOMÍA FISIOLÓGICA</td></tr>
+					<tr><td>TERMINOLOGÍA Y DOCUMENTACIÓN EN SALUD</td></tr>
+					<tr><td>FUNDAMENTOS DE ENFERMERÍA</td></tr>
+					<tr><td>PRIMEROS AUXILIOS</td></tr>
+					<tr><td>MATEMÁTICA</td></tr>
+					<tr><td>DESARROLLO PERSONAL</td></tr>
+					<tr><td>TECNOLOGÍA DE LA INFORMACIÓN</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -117,13 +116,12 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Promoción y Prevención de la Salud</td></tr>
-					<tr><td>Epidemiolagía</td></tr>
-					<tr><td>Microbiología e Inmunología</td></tr>
-					<tr><td>Salud Comunitaria</td></tr>
-					<tr><td>Produccion y Comprensión de Textos</td></tr>
-					<tr><td>Estadística Básica</td></tr>
-					
+					<tr><td>PROMOCIÓN Y PREVENCIÓN DE LA SALUD</td></tr>
+					<tr><td>EPIDEMIOLOGÍA</td></tr>
+					<tr><td>MICROBIOLOGÍA E INMUNOLOGÍA</td></tr>
+					<tr><td>SALUD COMUNITARIA</td></tr>
+					<tr><td>PRODUCCIÓN Y COMPRENSIÓN DE TEXTOS</td></tr>
+					<tr><td>ESTADÍSTICA BÁSICA</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -138,13 +136,12 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Bioseguridad</td></tr>
-					<tr><td>Farmacología</td></tr>
-					<tr><td>Asistencia en Medicina Alternativa</td></tr>
-					<tr><td>Asistencia Hospitalaria</td></tr>
-					<tr><td>Asistencia Quirúrgica</td></tr>
-					<tr><td>Inglés Básico</td></tr>
-					
+					<tr><td>BIOSEGURIDAD</td></tr>
+					<tr><td>FARMACOLOGÍA</td></tr>
+					<tr><td>ASISTENCIA EN MEDICINA ALTERNATIVA</td></tr>
+					<tr><td>ASISTENCIA HOSPITALARIA</td></tr>
+					<tr><td>ASISTENCIA QUIRÚRGICA</td></tr>
+					<tr><td>INGLÉS BÁSICO</td></tr>
 					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>
@@ -157,13 +154,12 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Salud Global e Internacional</td></tr>
-					<tr><td>Salud Pública</td></tr>
-					<tr><td>Nutrición y Salud</td></tr>
-					<tr><td>Técnicas de administración de Medicamentos</td></tr>
-					<tr><td>Terminología Profesional en Inglés</td></tr>
-					<tr><td></td></tr>
-					
+					<tr><td>SALUD GLOBAL E INTERNACIONAL</td></tr>
+					<tr><td>SALUD PÚBLICA</td></tr>
+					<tr><td>NUTRICIÓN Y SALUD</td></tr>
+					<tr><td>TÉCNICAS DE ADMINISTRACIÓN DE MEDICAMENTOS</td></tr>
+					<tr><td>TERMINOLOGÍA PROFESIONAL EN INGLÉS</td></tr>
+					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>
 		</div>
@@ -178,12 +174,12 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Asistencia en salud Mental</td></tr>
-					<tr><td>Asistencia Geriátrica</td></tr>
-					<tr><td>Asistencia Materna y del Neonato</td></tr>
-					<tr><td>Asistencia en Procedimientos Invasivos y no Invasivos</td></tr>
-					<tr><td>Salud del niño y Adolescentes</td></tr>
-					<tr><td>Metodologías Innovadoras</td></tr>
+					<tr><td>ASISTENCIA EN SALUD MENTAL</td></tr>
+					<tr><td>ASISTENCIA GERIÁTRICA</td></tr>
+					<tr><td>ASISTENCIA MATERNA Y DEL NEONATO</td></tr>
+					<tr><td>ASISTENCIA EN PROCEDIMIENTOS INVASIVOS Y NO INVASIVOS</td></tr>
+					<tr><td>SALUD DEL NIÑO Y ADOLESCENTES</td></tr>
+					<tr><td>METODOLOGÍAS INNOVADORAS</td></tr>
 					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>
@@ -196,12 +192,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr><td>Asistencia al Usuario Con Patologías</td></tr>
-					<tr><td>Asistencia al Usuario Oncológico</td></tr>
-					<tr><td>Asistencia Domiciliaria y Extrahospitalaria</td></tr>
-					<tr><td>Asistencia en Fisioterapia y Rehabilitación</td></tr>
-					<tr><td>Etica y Liderazgo Profesional</td></tr>
-
+					<tr><td>ASISTENCIA AL USUARIO CON PATOLOGÍAS</td></tr>
+					<tr><td>ASISTENCIA AL USUARIO ONCOLÓGICO</td></tr>
+					<tr><td>ASISTENCIA DOMICILIARIA Y EXTRAHOSPITALARIA</td></tr>
+					<tr><td>ASISTENCIA EN FISIOTERAPIA Y REHABILITACIÓN</td></tr>
+					<tr><td>ÉTICA Y LIDERAZGO PROFESIONAL</td></tr>
 					<tr><td>&nbsp;</td></tr>
 				</tbody>
 			</table>

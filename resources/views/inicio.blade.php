@@ -123,97 +123,97 @@
 
 <section>
 	<!-- SEGUNDO DIV DE LA INFORMACION DE LAS CARRERAS" -->
-	<div class="row bloqueapp2 appear-animation animated fadeInLeft appear-animation-visible" data-appear-animation="fadeInLeft" data-appear-animation-delay="4">
-		<div class="overlay-container">
-			<h2 class="titulo_cifra1"><strong>SAN JUAN BAUTISTA LA SALLE </strong>EN CIFRAS</h2>
-			<div class="container">
-				<div class="view view-cifras view-id-cifras view-display-id-block_1 js-view-dom-id-b16a8109dde29c02a68916edbb21bfbc00bda983835a37cf2089df4f8b1a3c93">
-					<!-- Contenido del div "container" -->
-					<div class="view-content">
-						<div class="views-row">
-							<div class="col-md-2 col-sm-6">
-								<div class="caja_cifra">
-									<div class="titulo_cifra contenido_cifra">
-										<p>Fundada el</p>
-										<br>
-									</div>
-									<div class="cantidad">
-										<img src="imgs/edificio.png" alt="Imagen de la fundación" style="width: 60px; margin-top: -15%;">
-										<br>
-										30 de Noviembre del 2004
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="views-row">
-							<div class="col-md-2 col-sm-6">
-								<div class="caja_cifra">
-									<div class="titulo_cifra contenido_cifra">
-										<p>Contamos con 5</p>
-										<br>
-									</div>
-									<div class="cantidad">
-										<img src="imgs/educacion.png" alt="Imagen de la fundación" style="width: 60px; margin-top: -15%;">
-										<br>
-										Carreras
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="views-row">
-							<div class="col-md-2 col-sm-6">
-								<div class="caja_cifra">
-									<div class="titulo_cifra contenido_cifra">
-										<p>Estudiantes Matriculados</p>
-										<br>
-									</div>
-									<div class="cantidad">
-										<img src="imgs/estudiantes.png" alt="Imagen de la fundación" style="width: 60px; margin-top: -15%;">
-										<br>
-										683
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="views-row">
-							<div class="col-md-2 col-sm-6">
-								<div class="caja_cifra">
-									<div class="titulo_cifra contenido_cifra">
-										<p style="font-size: 18px;">Investigadores y Administradores</p>
-										<br>
-									</div>
-									<div class="cantidad">
-										<img src="imgs/administradores.png" alt="Imagen de la fundación" style="width: 70px; margin-top: -15%;">
-										<br>
-										50
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> 
-				</div> 
-			</div>
-		</div> 
-	</div> 
-	
+<div class="row bloqueapp2 appear-animation animated fadeInLeft appear-animation-visible"
+     data-appear-animation="fadeInLeft" data-appear-animation-delay="4">
+    <div class="overlay-container">
+        <h2 class="titulo_cifra1">
+            <strong>SAN JUAN BAUTISTA LA SALLE</strong> EN CIFRAS
+        </h2>
+        <div class="container">
+            <div class="view view-cifras view-id-cifras view-display-id-block_1 js-view-dom-id-b16a8109dde29c02a68916edbb21bfbc00bda983835a37cf2089df4f8b1a3c93">
+                <div class="view-content">
 
-	<script>
-		document.addEventListener('DOMContentLoaded', function() {
-			const cajasCifra = document.querySelectorAll('.caja_cifra');
-	
-			cajasCifra.forEach(caja => {
-				caja.style.backgroundColor = '#87CEEB'; // Color celeste inicial con opacidad
-	
-				caja.addEventListener('mouseover', function() {
-					caja.style.backgroundColor = '#1E90FF'; // Cambiar a un tono de azul menos intenso al pasar el mouse
-				});
-	
-				caja.addEventListener('mouseleave', function() {
-					caja.style.backgroundColor = '#87CEEB'; // Restaurar el color celeste inicial al quitar el mouse
-				});
-			});
-		});
-	</script>
+                    <!-- FUNDADA EL -->
+                    <div class="views-row">
+                        <div class="col-md-2 col-sm-6">
+                            <div class="caja_cifra">
+                                <div class="titulo_cifra contenido_cifra">
+                                    <p>FUNDADA EL</p>
+                                </div>
+                                <div class="cantidad">
+                                    <img src="imgs/edificio.png" alt="Fundación">
+                                    <p>30 DE NOVIEMBRE DE 2004</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTAMOS CON 5 -->
+                    <div class="views-row">
+                        <div class="col-md-2 col-sm-6">
+                            <div class="caja_cifra">
+                                <div class="titulo_cifra contenido_cifra">
+                                    <p>CONTAMOS CON 5</p>
+                                </div>
+                                <div class="cantidad">
+                                    <img src="imgs/educacion.png" alt="Carreras">
+                                    <p>CARRERAS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ESTUDIANTES MATRICULADOS -->
+                    <div class="views-row">
+                        <div class="col-md-2 col-sm-6">
+                            <div class="caja_cifra">
+                                <div class="titulo_cifra contenido_cifra">
+                                    <p>ESTUDIANTES MATRICULADOS</p>
+                                </div>
+                                <div class="cantidad">
+                                    <img src="imgs/estudiantes.png" alt="Estudiantes">
+                                    <p>683</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- INVESTIGADORES Y ADMINISTRADORES -->
+                    <div class="views-row">
+                        <div class="col-md-2 col-sm-6">
+                            <div class="caja_cifra">
+                                <div class="titulo_cifra contenido_cifra">
+                                    <p>INVESTIGADORES Y ADMINISTRADORES</p>
+                                </div>
+                                <div class="cantidad">
+                                    <img src="imgs/administradores.png" alt="Administradores">
+                                    <p>50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const cajasCifra = document.querySelectorAll('.caja_cifra');
+    cajasCifra.forEach(caja => {
+      caja.style.backgroundColor = '#87CEEB';
+      caja.addEventListener('mouseover', function() {
+        caja.style.backgroundColor = '#1E90FF';
+      });
+      caja.addEventListener('mouseleave', function() {
+        caja.style.backgroundColor = '#87CEEB';
+      });
+    });
+  });
+</script> -->
+
 </section>
 
 <section>
@@ -389,6 +389,12 @@
 <section>
     <div class="sede-description">
         <h2>Nuestra Sede</h2>
+        <pre>
+
+
+        
+
+        </pre>
         <h3>Jr. San Martin 868 Juliaca</h3>
         <video autoplay loop muted class="sede-video">
             <source src="{{ asset('videos/salle.mp4') }}" type="video/mp4">
