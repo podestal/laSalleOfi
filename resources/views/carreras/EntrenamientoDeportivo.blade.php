@@ -83,7 +83,7 @@
 			<div class="item s-100 m-50 main-carrera__turnos--turno">
 				<h2 class="h2">Turnos </h2>
 				<div>
-					<!--<ul><li>Turno Mañana: 08:00 a 11:40</li><li>Turno Tarde: 01:30pm a 05:10pm</li><li>Turno Noche: 05:30pm a 08:45pm</li></ul>-->			</div>
+					<!--<ul><li>Turno Mañana: 07:30 a 12:00</li><li>Turno Tarde: 01:00pm a 06:00pm</li><li>Turno Noche: 05:30pm a 08:45pm</li></ul>-->			</div>
 			</div>
 			<div class="item s-100 main-carrera__turnos--clases">
 				<p>Las clases las realizarás en nuestras instalaciones Jr. San Martin 868 Juliaca</p>

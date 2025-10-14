@@ -162,56 +162,7 @@
 </footer>
 
    </div>
- 
-  <div id="unique-modal" class="unique-modal">
-    <div class="unique-modal-content">
-      <span class="unique-close">&times;</span>
-      <h2 class="unique-title">APERTURAMOS MATRÍCULAS 2025-I</h2>
-      <p class="unique-subtitle"><strong>Cronograma</strong></p>
-      <ol class="unique-list">
-        <li>Inscripción hasta el 29 de marzo</li>
-        <li>Examen de admisión 30 de marzo</li>
-        <li>Inicio de labores académicas 7 de abril</li>
-        <li>Matrícula del 31 al 4 de abril</li>
-      </ol>
-      <table class="unique-table">
-        <tr>
-          <th>Turnos</th>
-          <th>Mañana</th>
-          <th>Tarde</th>
-          <th>Noche</th>
-        </tr>
-        <tr>
-          <td>Fisioterapia</td>
-          <td></td>
-          <td>X</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Prótesis Dental</td>
-          <td>X</td>
-          <td>X</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Optometría</td>
-          <td></td>
-          <td></td>
-          <td>X</td>
-        </tr>
-        <tr>
-          <td>Farmacia</td>
-          <td>X</td>
-          <td>X</td>
-          <td></td>
-        </tr>
-      </table>
-      <button class="unique-btn">Matricúlate aquí</button>
-      <a href="{{ asset('pdf/ADMISION 2025 I.pdf') }}" target="_blank"><button class="unique-btn">Ver Resultados Admisión 2025-I</button>
-      </a>
 
-    </div>
-  </div>
 
 <style>
  /* Estilos únicos para evitar conflictos */

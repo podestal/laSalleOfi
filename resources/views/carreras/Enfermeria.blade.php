@@ -74,7 +74,7 @@
 			<div class="item s-100 m-50 main-carrera__turnos--turno">
 				<h2 class="h2">Turnos </h2>
 				<div>
-					<ul><li>Turno Mañana: 07:00am a 12:00am</li><li>Turno Tarde: 01:00pm a 06:00pm</li></ul>
+					<ul><li>Turno Mañana: 07:30am a 12:00am</li><li>Turno Tarde: 01:00pm a 06:00pm</li></ul>
 				</div>
 			</div>
 			<div class="item s-100 main-carrera__turnos--clases">

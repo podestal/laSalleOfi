@@ -69,7 +69,7 @@
                 <h2 class="h2">Turnos</h2>
                 <div>
                     <ul>
-                        <li>Turno Tarde: 01:30pm a 05:10pm</li>
+                        <li>Turno Tarde: 01:00pm a 06:00pm</li>
                     </ul>                
                 </div>
             </div>
